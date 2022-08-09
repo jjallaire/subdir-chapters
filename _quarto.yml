@@ -1,0 +1,23 @@
+project:
+  type: book
+
+book:
+  title: "subdir-chapters"
+  author: "Jane Doe"
+  date: "8/9/2022"
+  chapters:
+    - index.qmd
+    - subdir/intro.qmd
+    - subdir/summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
